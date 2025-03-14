@@ -100,3 +100,20 @@ int main()
     printf("Gewinnrate mit Wechsel (%d Versuche): %.2f%%\n", n, simulate(n, 1) * 100);
     return 0;
 }
+
+/*
+For tuerschild
+Based on the provided files and the tasks listed, the cluster is not completely working. Here are the details:
+
+Cluster:
+Time sync (nodes) (NTP (Network Time Protocol) for time sync): Done
+Scalability (add/delete nodes) (de-/registration and List Management): Not started
+Error handling and logging: Not started
+Additional Observations:
+Communication between nodes: The basic communication setup using ESP-NOW is done, but the logic for handling the cluster (e.g., adding/removing nodes dynamically) is not implemented.
+Data processing: The logic for processing received data and forwarding it to the next node or handling it if it's the final node is not fully implemented.
+Error handling: There is no comprehensive error handling and logging mechanism in place.
+Power management: Strategies for efficient power management are not fully implemented.
+Conclusion:
+The cluster has some foundational elements in place, such as time synchronization and basic communication, but it is not fully functional. Key aspects like scalability, error handling, and complete data processing are not yet implemented.
+*/
